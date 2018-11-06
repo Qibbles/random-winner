@@ -25,6 +25,10 @@ csvBox = ttk.Entry(win, width=12, textvariable=csv)
 #checkbox
 
 #buttons
+uploadButton = ttk.Button(win, text="Upload", command=upload)
+uploadButton.grid(column=1, row=1)
 
+submitButton = ttk.Button(win, text="Submit", command=submit)
+submitButton.grid(column=0, row=3)
 
 win.mainloop()
