@@ -1,9 +1,18 @@
 import tkinter as tk
 from tkinter import ttk
+import random
 
 #GUI
 win = tk.Tk()
 win.title("Random Winners")
+
+#functions
+def upload():
+    pass
+
+def submit():
+    print(random.randint(5))
+    pass
 
 #labels
 winnerLabel = ttk.Label(win, text="No. Winners")
