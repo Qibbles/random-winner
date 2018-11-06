@@ -26,5 +26,5 @@ csvBox = ttk.Entry(win, width=12, textvariable=csv)
 
 #buttons
 
-#test
+
 win.mainloop()
